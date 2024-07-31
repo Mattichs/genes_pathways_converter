@@ -1,0 +1,170 @@
+﻿Gene Symbol;Core pathway
+ABL1;Cell Cycle/Apoptosis
+ACVR1B;TGF-b 
+AKT1;PI3K
+ALK;"PI3K; RAS"
+APC;APC
+AR;Transcriptional Regulation
+ARID1A;Chromatin Modification
+ARID1B;Chromatin Modification
+ARID2;Chromatin Modification
+ASXL1;Chromatin Modification
+ATM;DNA Damage Control
+ATRX;Chromatin Modification
+AXIN1;APC
+B2M;"PI3K; RAS; MAPK"
+BAP1;DNA Damage Control
+BCL2;Cell Cycle/Apoptosis
+BCOR;Transcriptional Regulation
+BRAF;RAS
+BRCA1;DNA Damage Control
+BRCA2;DNA Damage Control
+CARD11;Cell Cycle/Apoptosis
+CASP8;Cell Cycle/Apoptosis
+CBL;"PI3K; RAS"
+CDC73;Cell Cycle/Apoptosis
+CDH1;APC
+CDKN2A;Cell Cycle/Apoptosis
+CEBPA;"PI3K; RAS; MAPK"
+CIC;RAS
+CREBBP;"Chromatin Modification; Transcriptional Regulation"
+CRLF2;STAT
+CSF1R;"PI3K; RAS"
+CTNNB1;APC
+CYLD;Cell Cycle/Apoptosis
+DAXX;"Chromatin Modification; Cell Cycle/Apoptosis"
+DNMT1;Chromatin Modification
+DNMT3A;Chromatin Modification
+EGFR;"PI3K; RAS"
+EP300;"Chromatin Modification; APC; TGF-b; NOTCH"
+ERBB2;"PI3K; RAS"
+EZH2;Chromatin Modification
+FAM123B;APC
+FBXW7;NOTCH
+FGFR2;"PI3K; RAS; STAT"
+FGFR3;"PI3K; RAS; STAT"
+FLT3;"RAS; PI3K; STAT"
+FOXL2;TGF-b 
+FUBP1;Cell Cycle/Apoptosis
+GATA1;"NOTCH;  TGF-b"
+GATA2;"NOTCH; TGF-b"
+GATA3;Transcriptional Regulation
+GNA11;"PI3K; RAS; MAPK"
+GNAQ;"PI3K;RAS; MAPK"
+GNAS;"APC; PI3K; TGF-b; RAS"
+H3F3A;Chromatin Modification
+HIST1H3B;Chromatin Modification
+HNF1A;APC
+HRAS;RAS
+IDH1;Chromatin Modification
+IDH2;Chromatin Modification
+JAK1;STAT
+JAK2;STAT
+JAK3;STAT
+KDM5C;Chromatin Modification
+KDM6A;Chromatin Modification
+KIT;"PI3K; RAS; STAT"
+KLF4;"Transcriptional Regulation; WNT"
+KRAS;RAS
+MAP2K1;RAS
+MAP3K1;"RAS; MAPK"
+MED12;"Cell Cycle/Apoptosis; TGF-b"
+MEN1;Chromatin Modification
+MET;"PI3K; RAS"
+MLH1;DNA Damage Control
+MLL2;Chromatin Modification
+MLL3;Chromatin Modification
+MPL;STAT
+MSH2;DNA Damage Control
+MSH6;DNA Damage Control
+MYD88;Cell Cycle/Apoptosis
+NCOR1;Chromatin Modification
+NF1;RAS
+NF2;APC
+NFE2L2;Cell Cycle/Apoptosis
+NOTCH1;NOTCH
+NOTCH2;NOTCH
+NPM1;Cell Cycle/Apoptosis
+NRAS;RAS
+PAX5;Chromatin Modification
+PBRM1;Chromatin Modification
+PDGFRA;"PI3K; RAS"
+PHF6;Transcriptional Regulation
+PIK3CA;PI3K
+PIK3R1;PI3K
+PPP2R1A;Cell Cycle/Apoptosis
+PRDM1;Chromatin Modification
+PTCH1;HH
+PTEN;PI3K
+PTPN11;RAS
+RB1;Cell Cycle/Apoptosis
+RET;"RAS; PI3K "
+RNF43;APC
+RUNX1;Transcriptional Regulation
+SETD2;Chromatin Modification
+SETBP1;"Chromatin Modification; Replication"
+SF3B1;Transcriptional Regulation
+SMAD2;TGF-b
+SMAD4;TGF-b
+SMARCA4;Chromatin Modification
+SMARCB1;Chromatin Modification
+SMO;HH
+SOCS1;STAT
+SOX9;APC
+SPOP;"Chromatin Modification; HH"
+SRSF2;Transcriptional Regulation
+STAG2;DNA Damage Control
+STK11;mTOR
+TET2;Chromatin Modification
+TNFAIP3;"Cell Cycle/Apoptosis; MAPK"
+TRAF7;Apoptosis
+TP53;"Cell Cycle/Apoptosis; DNA Damage Control"
+TSC1;PI3K
+TSHR;"PI3K; MAPK"
+U2AF1;Transcriptional Regulation
+VHL;"PI3K; RAS; STAT"
+WT1;Chromatin Modification
+SMC3;Chromatin Modification
+ETV6;Cell Cycle/Apoptosis
+PPM1D;MAPK
+MYC;MAPK
+CSF3R;WNT
+PASK;Transcriptional Regulation
+MGA;Transcriptional Regulation
+WRN;DNA Damage Control
+ARHGAP35;Cell Cycle/Apoptosis
+TERT;Cell Cycle/Apoptosis
+IKZF1;Apoptosis
+CMTR2;Transcriptional Regulation
+KEAP1;Cell Cycle/Apoptosis
+PLXNB2;Transcriptional Regulation
+SGK223;Cell Cycle/Apoptosis
+KMT2C;Chromatin Modification
+FLT4;"RAS; PI3K; STAT"
+CBLB;"PI3K; RAS"
+FAT1;NOTCH
+PTPRC;PI3K
+SPEN;NOTCH
+COL5A2;"PI3K; MAPK"
+COL2A1;"PI3K; MAPK"
+PRF1;Cell Cycle/Apoptosis
+CHEK2;DNA Damage Control
+KMT2D;Chromatin Modification
+POLE;DNA Damage Control
+SERPINB13;Transcriptional Regulation
+CCND1;Cell Cycle/Apoptosis
+TSC2;PI3K
+FGFR1;"PI3K; RAS; STAT"
+RAD21;Chromatin Modification
+FAS;Cell Cycle/Apoptosis
+NCOA6;Cell Cycle/Apoptosis
+PHOX2B;NOTCH
+UBR5;"PI3K; MAPK"
+FANCM;DNA Damage Control
+RASA1;RAS
+DNM2;NOTCH
+SOX2;"WNT; NOTCH"
+DICER1;Transcriptional Regulation
+LATS1;DNA Damage Control
+FANCC;DNA Damage Control
+CUX1;"WNT; NOTCH"
