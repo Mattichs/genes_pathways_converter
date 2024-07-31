@@ -1,6 +1,6 @@
 # GENE TO PATHWAY CONVERTER FOR MASTRO
 ## HOW TO RUN
-Run the converter script run_converter.py:
+Run the converter script '#fffffrun_converter.py':
 ```
 usage: run_converter.py [-h] [-i I]
 
