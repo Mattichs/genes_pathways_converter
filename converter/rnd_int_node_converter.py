@@ -12,7 +12,7 @@ parser.add_argument("-i", help="Input file path")
 
 args = parser.parse_args()
 input_file = args.i
-output_file = (args.i).replace(".txt", "")  + "-converted2.txt"
+output_file = "output/" + (args.i).replace(".txt", "")  + "-converted2.txt"
 
 df = pd.read_csv('data/table_gene_path.csv', delimiter=';', header=None, encoding='utf-8')
 

@@ -12,7 +12,7 @@ parser.add_argument("-i", help="Input file path")
 
 args = parser.parse_args()
 input_file = args.i
-output_file = (args.i).replace(".txt", "")  + "-converted1.txt"
+output_file = "output/" + (args.i).replace(".txt", "")  + "-converted1.txt"
 
 
 df = pd.read_csv('data/table_gene_path.csv', delimiter=';', header=None, encoding='utf-8')
@@ -157,7 +157,9 @@ with open(input_file, 'r') as file:
 
         #print(node_dict)
 
-        # pathways importance criterio
+
+
+        # pathways importance criterio 
         pathway_info = defaultdict(lambda: {'min_ancestor': float('inf'), 'max_descentant':-1 ,'gene': ''})
         for gene, info in node_dict.items():
             for pathway in info['pathways']:
@@ -168,6 +170,8 @@ with open(input_file, 'r') as file:
                 elif info['ancestor'] == pathway_info[pathway]['min_ancestor'] and info['descentant'] > pathway_info[pathway]['max_descentant']:
                     pathway_info[pathway]['max_descentant'] = info['descentant']
                     pathway_info[pathway]['gene'] = gene
+        
+
 
         # filtered dict with importance criterio
         print(node_dict)
