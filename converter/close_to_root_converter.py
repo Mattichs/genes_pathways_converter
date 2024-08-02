@@ -1,3 +1,8 @@
+"""
+To run this code:
+python3 converter_updated.py -i "INPUT FILE PATH"
+"""
+
 import numpy as np
 import pandas as pd
 from itertools import combinations
@@ -12,7 +17,7 @@ parser.add_argument("-i", help="Input file path")
 
 args = parser.parse_args()
 input_file = args.i
-output_file = "output/" + (args.i).replace(".txt", "")  + "-converted1.txt"
+output_file = (args.i).replace(".txt", "")  + "-converted1.txt"
 
 
 df = pd.read_csv('data/table_gene_path.csv', delimiter=';', header=None, encoding='utf-8')
@@ -143,7 +148,22 @@ def create_edge(converter, first_node, second_node, edge, temp):
 
     return temp
 
-    
+
+def pathway_importance_criterio(node_dict):
+    pathway_info = defaultdict(lambda: {'min_ancestor': float('inf'), 'max_descentant':-1 ,'gene': ''})
+    for gene, info in node_dict.items():
+        for pathway in info['pathways']:
+            if info['ancestor'] < pathway_info[pathway]['min_ancestor']:
+                pathway_info[pathway]['min_ancestor'] = info['ancestor']
+                pathway_info[pathway]['max_descentant'] = info['descentant']
+                pathway_info[pathway]['gene'] = gene
+            elif info['ancestor'] == pathway_info[pathway]['min_ancestor'] and info['descentant'] > pathway_info[pathway]['max_descentant']:
+                pathway_info[pathway]['max_descentant'] = info['descentant']
+                pathway_info[pathway]['gene'] = gene
+
+    return pathway_info
+
+ 
 # three phases of the algorithm
 # might 2 + 3 can be a single phase
 with open(input_file, 'r') as file:
@@ -155,26 +175,9 @@ with open(input_file, 'r') as file:
         for edge in tree:  
             update_score(node_dict, edge)
 
-        #print(node_dict)
-
-
-
-        # pathways importance criterio 
-        pathway_info = defaultdict(lambda: {'min_ancestor': float('inf'), 'max_descentant':-1 ,'gene': ''})
-        for gene, info in node_dict.items():
-            for pathway in info['pathways']:
-                if info['ancestor'] < pathway_info[pathway]['min_ancestor']:
-                    pathway_info[pathway]['min_ancestor'] = info['ancestor']
-                    pathway_info[pathway]['max_descentant'] = info['descentant']
-                    pathway_info[pathway]['gene'] = gene
-                elif info['ancestor'] == pathway_info[pathway]['min_ancestor'] and info['descentant'] > pathway_info[pathway]['max_descentant']:
-                    pathway_info[pathway]['max_descentant'] = info['descentant']
-                    pathway_info[pathway]['gene'] = gene
+        # pathways importance criterio (in this case min ancestor, or max descentant)
+        pathway_info = pathway_importance_criterio(node_dict)
         
-
-
-        # filtered dict with importance criterio
-        print(node_dict)
         node_dict_filtered = {}
         
         # handled gene with 'amp'

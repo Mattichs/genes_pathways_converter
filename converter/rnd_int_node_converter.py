@@ -1,3 +1,15 @@
+"""
+To run this code:
+python3 converter_updated.py -i "INPUT FILE PATH"
+
+Il criterio sceglie un nodo interno "casualmente", cioè l'ultimo nodo interno che incontra è quello che viene tenuto
+(in realtà è casuale se gli archi degli alberi sono inseriti a caso e senza seguire uno schema logico preciso)
+TODO
+- in questo converter come criterio di scelta di nodo significativo scelgo i nodi interni,
+quindi nodi radice e nodi padre sono meno significativi
+
+"""
+
 import numpy as np
 import pandas as pd
 from itertools import combinations
@@ -12,7 +24,7 @@ parser.add_argument("-i", help="Input file path")
 
 args = parser.parse_args()
 input_file = args.i
-output_file = "output/" + (args.i).replace(".txt", "")  + "-converted2.txt"
+output_file = (args.i).replace(".txt", "")  + "-converted2.txt"
 
 df = pd.read_csv('data/table_gene_path.csv', delimiter=';', header=None, encoding='utf-8')
 
@@ -148,7 +160,21 @@ def create_edge(converter, first_node, second_node, edge, temp):
 
     return temp
 
-    
+def pathway_importance_criterio(node_dict):
+    pathway_info = defaultdict(lambda: {'min_ancestor': float('inf'), 'max_descentant':-1 ,'gene': ''})
+    for gene, info in node_dict.items():
+        for pathway in info['pathways']:
+            if info['ancestor'] < pathway_info[pathway]['min_ancestor']:
+                pathway_info[pathway]['min_ancestor'] = info['ancestor']
+                pathway_info[pathway]['max_descentant'] = info['descentant']
+                pathway_info[pathway]['gene'] = gene
+            elif info['ancestor'] == pathway_info[pathway]['min_ancestor'] and info['descentant'] > pathway_info[pathway]['max_descentant']:
+                pathway_info[pathway]['max_descentant'] = info['descentant']
+                pathway_info[pathway]['gene'] = gene
+
+    return pathway_info
+
+ 
 # three phases of the algorithm
 # might 2 + 3 can be a single phase
 with open(input_file, 'r') as file:
@@ -166,19 +192,7 @@ with open(input_file, 'r') as file:
         # pathways importance criterio 
         # criterio if ancestor=1 and descentant=1 is more imporant than {a=1, d=0} or {a=0, d=1}
         
-        pathway_info = defaultdict(lambda: {'importance': 0,'gene': ''})
-        for gene, info in node_dict.items():
-            for pathway in info['pathways']:
-                print(pathway)
-                if info['ancestor'] == 1 and info['descentant'] == 1:
-                    pathway_info[pathway]['importance'] = 1
-                    pathway_info[pathway]['gene'] = gene
-                    print(pathway_info)
-                elif (info['ancestor'] == 0 or info['descentant'] == 0) and pathway not in pathway_info:
-                    pathway_info[pathway]['importance'] = 0
-                    pathway_info[pathway]['gene'] = gene
-
-        print(pathway_info)
+        pathway_info = pathway_importance_criterio(node_dict)    
 
         # filtered dict with importance criterio
         #print(node_dict)
