@@ -161,17 +161,15 @@ def create_edge(converter, first_node, second_node, edge, temp):
     return temp
 
 def pathway_importance_criterio(node_dict):
-    pathway_info = defaultdict(lambda: {'min_ancestor': float('inf'), 'max_descentant':-1 ,'gene': ''})
+    pathway_info = defaultdict(lambda: {'importance': 0,'gene': ''})
     for gene, info in node_dict.items():
         for pathway in info['pathways']:
-            if info['ancestor'] < pathway_info[pathway]['min_ancestor']:
-                pathway_info[pathway]['min_ancestor'] = info['ancestor']
-                pathway_info[pathway]['max_descentant'] = info['descentant']
+            if info['ancestor'] == 1 and info['descentant'] == 1:
+                pathway_info[pathway]['importance'] = 1
                 pathway_info[pathway]['gene'] = gene
-            elif info['ancestor'] == pathway_info[pathway]['min_ancestor'] and info['descentant'] > pathway_info[pathway]['max_descentant']:
-                pathway_info[pathway]['max_descentant'] = info['descentant']
+            elif info['ancestor'] == 0 or info['descentant'] == 0:
+                pathway_info[pathway]['importance'] = 0
                 pathway_info[pathway]['gene'] = gene
-
     return pathway_info
 
  
