@@ -167,7 +167,7 @@ def pathway_importance_criterio(node_dict):
             if info['ancestor'] == 1 and info['descentant'] == 1:
                 pathway_info[pathway]['importance'] = 1
                 pathway_info[pathway]['gene'] = gene
-            elif info['ancestor'] == 0 or info['descentant'] == 0:
+            elif (info['ancestor'] == 0 or info['descentant'] == 0) and pathway not in pathway_info:
                 pathway_info[pathway]['importance'] = 0
                 pathway_info[pathway]['gene'] = gene
     return pathway_info
