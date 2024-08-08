@@ -1,0 +1,89 @@
+PI3Kamp-?-RASamp PI3Kamp->-TR RASamp->-TR DDD->-TR DDD->-Apoptosis TR->-Apoptosis PI3Kamp->-Apoptosis RASamp->-Apoptosis PI3Kamp-?-DDD RASamp-?-DDD 
+PI3K-?-RAS CM-?-APC CM-?-TGF-b CM-?-NOTCH APC-?-TGF-b APC-?-NOTCH TGF-b-?-NOTCH PI3K->-CM RAS->-CM PI3K->-APC RAS->-APC PI3K->-TGF-b RAS->-TGF-b PI3K->-NOTCH RAS->-NOTCH Apoptosisamp->-CM Apoptosisamp->-APC Apoptosisamp->-TGF-b Apoptosisamp->-NOTCH PI3K-?-Apoptosisamp RAS-?-Apoptosisamp 
+PI3K-?-RAS Apoptosis->-APC Apoptosis-?-PI3K Apoptosis-?-RAS PI3K->-APC RAS->-APC 
+PI3K-?-RAS PI3K->-TGF-b RAS->-TGF-b PI3K->-NOTCH RAS->-NOTCH Apoptosis-?-DDD Apoptosis->-NOTCH DDD->-NOTCH PI3K-?-Apoptosis RAS-?-Apoptosis PI3K-?-DDD RAS-?-DDD NOTCH-?-TGF-b Apoptosis->-TGF-b DDD->-TGF-b 
+TR-?-Apoptosisamp TR-?-DDD RAS-?-Apoptosisamp Apoptosisamp-?-DDD RAS-?-TR RAS-?-DDD 
+Apoptosis-?-DDD RAS-?-MAPK Apoptosis->-RAS DDD->-RAS Apoptosis->-MAPK DDD->-MAPK TR-?-Apoptosis TR-?-DDD TR->-RAS TR->-MAPK 
+PI3K-?-Apoptosisamp RAS-?-Apoptosisamp RAS-?-PI3K 
+Apoptosis-?-CM MAPKamp-?-TR MAPKamp-?-CM CM-?-TR MAPKamp-?-mTOR CM-?-mTOR Apoptosis-?-mTOR Apoptosis-?-MAPKamp Apoptosis-?-TR mTOR-?-TR 
+Apoptosis-?-RAS Apoptosis-?-PI3Kamp Apoptosis-?-CM PI3Kamp-?-DDD RAS-?-PI3Kamp CM-?-DDD CM-?-PI3Kamp RAS-?-CM Apoptosis-?-DDD RAS-?-DDD 
+PI3K-?-RAS PI3K-?-Apoptosisamp RAS-?-Apoptosisamp CM-?-Apoptosisamp PI3K-?-CM RAS-?-CM 
+PI3K-?-STAT RAS->-PI3K RAS->-STAT 
+PI3Kamp-?-RASamp mTOR->-PI3Kamp mTOR->-RASamp mTOR->-NOTCH PI3Kamp-/-NOTCH RASamp-/-NOTCH 
+RAS->-APC Apoptosis-?-DDD RAS-?-Apoptosis RAS-?-DDD Apoptosis->-APC DDD->-APC 
+DDD->-Apoptosis PI3K-?-RAS DDD-?-PI3K DDD-?-RAS PI3K->-Apoptosis RAS->-Apoptosis 
+NOTCH-?-Apoptosisamp PI3K-?-RAS PI3K-?-NOTCH RAS-?-NOTCH Apoptosisamp->-CM PI3K->-CM RAS->-CM NOTCH-?-DDD PI3K-?-DDD RAS-?-DDD DDD->-CM Apoptosisamp-?-DDD PI3K-?-Apoptosisamp RAS-?-Apoptosisamp NOTCH->-CM 
+Apoptosis-?-DDD MAPKamp-?-Apoptosis MAPKamp-?-DDD CM-?-Apoptosis CM-?-DDD CM-?-MAPKamp MAPKamp->-RAS Apoptosis->-RAS DDD->-RAS CM->-RAS 
+TR-?-RAS PI3K-?-MAPK PI3K-?-RAS MAPK-?-RAS TR-?-PI3K TR-?-MAPK 
+Apoptosis-?-DDD PI3K-?-MAPK CM-?-PI3K CM-?-MAPK PI3K-?-DDD MAPK-?-DDD RASamp-?-DDD CM-?-DDD RASamp-?-TR CM-?-Apoptosis PI3K-?-TR MAPK-?-TR Apoptosis-?-RASamp TR-?-DDD CM-?-TR PI3K-?-RASamp MAPK-?-RASamp PI3K-?-Apoptosis MAPK-?-Apoptosis Apoptosis-?-TR CM-?-RASamp 
+DDD-?-Apoptosis PI3K-?-RAS PI3K-?-Apoptosis RAS-?-Apoptosis DDD-?-PI3K DDD-?-RAS 
+PI3K-?-RAS Apoptosis-?-DDD PI3K-?-Apoptosis RAS-?-Apoptosis PI3K-?-DDD RAS-?-DDD 
+Apoptosis->-DDD RAS->-DDD RAS->-PI3K RAS->-CM Apoptosis-?-RAS PI3K-/-DDD CM-/-DDD Apoptosis->-PI3K Apoptosis->-CM CM-?-PI3K 
+PI3Kamp-?-RASamp mTOR->-DDD PI3Kamp->-DDD RASamp->-DDD mTOR-?-Apoptosis Apoptosis->-DDD PI3Kamp->-CM RASamp->-CM DDD->-CM Apoptosis->-CM mTOR->-CM PI3Kamp-?-Apoptosis RASamp-?-Apoptosis PI3Kamp-?-mTOR RASamp-?-mTOR 
+Apoptosis-?-DDD TR-?-Apoptosis TR-?-DDD RAS-?-Apoptosis RAS-?-DDD RAS-?-TR 
+Apoptosis-?-DDD PI3K-?-RAS PI3K-?-Apoptosis RAS-?-Apoptosis PI3K-?-DDD RAS-?-DDD TR-?-DDD Apoptosis-?-TR PI3K-?-TR RAS-?-TR 
+RAS->-TR Apoptosis-?-DDD RAS-?-Apoptosis RAS-?-DDD Apoptosis->-TR DDD->-TR 
+PI3Kamp-?-RASamp APC-?-PI3Kamp APC-?-RASamp 
+Apoptosisamp-?-DDD RAS-?-DDD Apoptosisamp-?-RAS TR-?-RAS TR-?-DDD Apoptosisamp-?-TR 
+NOTCH-?-TR NOTCH-?-RAS Apoptosis-?-DDD Apoptosis-?-PI3K DDD-?-PI3K RAS-?-Apoptosis RAS-?-DDD Apoptosis-?-TR DDD-?-TR NOTCH-?-PI3K PI3K-?-TR RAS-?-PI3K NOTCH-?-Apoptosis NOTCH-?-DDD RAS-?-TR 
+Apoptosis->-RAS PI3Kamp-?-STATamp PI3Kamp->-RAS STATamp->-RAS PI3Kamp-?-Apoptosis STATamp-?-Apoptosis 
+DDD->-CM TR->-CM APC->-CM DDD-?-APC DDD->-Apoptosisamp DDD-?-TR TR->-Apoptosisamp Apoptosisamp->-CM APC->-Apoptosisamp APC-?-TR 
+APC-?-Apoptosis 
+DDD-?-RAS RAS-?-TR DDD-?-TR 
+Apoptosis-?-DDD RAS-?-PI3K RAS-?-STAT PI3K-?-STAT Apoptosis->-RAS DDD->-RAS Apoptosis->-PI3K DDD->-PI3K Apoptosis->-STAT DDD->-STAT 
+Apoptosis-?-RAS RAS-?-PI3K Apoptosis-?-PI3K 
+CM-?-TR CM-?-Apoptosis TR-?-Apoptosis RAS-?-Apoptosis CM-?-RAS TR-?-RAS 
+RAS->-CM 
+RAS-?-NOTCH TR-?-RAS TR-?-NOTCH 
+TR-?-CM RAS-?-CM TR-?-RAS 
+PI3Kamp-?-RASamp PI3Kamp-?-Apoptosisamp RASamp-?-Apoptosisamp 
+APC-?-Apoptosis 
+APC-?-mTOR APC-?-RAS RAS-?-mTOR MAPKamp-?-mTOR APC-?-MAPKamp RAS-?-MAPKamp 
+Apoptosis-?-RAS APC-?-RAS RAS-?-CM RAS-?-MAPKamp PI3Kamp-?-DDD Apoptosis-?-CM PI3Kamp-?-CM CM-?-DDD APC-?-Apoptosis Apoptosis-?-MAPKamp APC-?-MAPKamp RAS-?-PI3Kamp PI3Kamp-?-MAPKamp Apoptosis-?-DDD Apoptosis-?-PI3Kamp MAPKamp-?-DDD MAPKamp-?-CM APC-?-CM APC-?-DDD RAS-?-DDD APC-?-PI3Kamp 
+Apoptosis-?-DDD PI3Kamp-?-RASamp PI3Kamp-?-Apoptosis RASamp-?-Apoptosis MAPK-?-PI3Kamp MAPK-?-RASamp MAPK-?-DDD MAPK-?-Apoptosis PI3Kamp-?-DDD RASamp-?-DDD 
+MAPKamp-?-mTOR RAS-?-MAPKamp RAS-?-mTOR 
+PI3Kamp-?-RASamp PI3Kamp-?-NOTCH RASamp-?-NOTCH CM-?-APC CM-?-TGF-b APC-?-TGF-b NOTCH->-CM NOTCH->-APC NOTCH->-TGF-b Apoptosis-?-DDD Apoptosis->-CM DDD->-CM Apoptosis->-APC DDD->-APC Apoptosis->-TGF-b DDD->-TGF-b PI3Kamp->-CM RASamp->-CM PI3Kamp->-APC RASamp->-APC PI3Kamp->-TGF-b RASamp->-TGF-b NOTCH-?-Apoptosis NOTCH-?-DDD PI3Kamp-?-Apoptosis RASamp-?-Apoptosis PI3Kamp-?-DDD RASamp-?-DDD 
+RAS-?-NOTCH CM-?-NOTCH Apoptosis-?-DDD TR-?-RAS PI3K-?-MAPK RAS->-PI3K RAS->-MAPK NOTCH-?-DDD Apoptosis->-PI3K Apoptosis->-MAPK NOTCH->-PI3K NOTCH->-MAPK CM->-PI3K CM->-MAPK Apoptosis-?-NOTCH CM-?-TR TR-?-DDD RAS-?-DDD Apoptosis-?-RAS DDD->-PI3K DDD->-MAPK TR->-PI3K TR->-MAPK CM-?-DDD CM-?-RAS Apoptosis-?-TR Apoptosis-?-CM TR-?-NOTCH 
+PI3K-?-MAPK DDD-?-PI3K DDD-?-MAPK PI3K->-NOTCH MAPK->-NOTCH DDD->-NOTCH 
+CM-?-TR CM-?-RAS TR-?-RAS Apoptosis-?-DDD CM->-Apoptosis TR->-Apoptosis CM->-DDD TR->-DDD RAS->-Apoptosis RAS->-DDD 
+CM-?-Apoptosisamp Apoptosisamp-?-PI3K RAS-?-CM CM-?-PI3K RAS-?-PI3K RAS-?-Apoptosisamp NOTCH-?-CM NOTCH-?-Apoptosisamp NOTCH-?-PI3K NOTCH-?-RAS 
+WNTamp-?-NOTCHamp PI3Kamp-?-WNTamp PI3Kamp-?-NOTCHamp Apoptosisamp-?-WNTamp Apoptosisamp-?-NOTCHamp PI3Kamp->-TR WNTamp->-TR NOTCHamp->-TR Apoptosisamp-?-DDD PI3Kamp-?-DDD Apoptosisamp->-TR Apoptosisamp-?-PI3Kamp DDD->-TR WNTamp-?-DDD NOTCHamp-?-DDD 
+NOTCH->-Apoptosis NOTCH-?-WNTamp NOTCH-?-DDD Apoptosis-?-RAS PI3K->-Apoptosis PI3K->-RAS WNTamp-?-DDD WNTamp->-Apoptosis DDD->-Apoptosis PI3K-?-WNTamp WNTamp->-RAS NOTCH->-RAS DDD->-RAS NOTCH-?-PI3K PI3K-?-DDD 
+Apoptosis-?-DDD Apoptosis->-NOTCH DDD->-NOTCH 
+WNTamp-?-NOTCHamp PI3K-?-MAPK WNTamp->-PI3K NOTCHamp->-PI3K WNTamp->-MAPK NOTCHamp->-MAPK Apoptosis->-DDD WNTamp->-DDD NOTCHamp->-DDD DDD-?-PI3K DDD-?-MAPK WNTamp-?-Apoptosis NOTCHamp-?-Apoptosis Apoptosis->-PI3K Apoptosis->-MAPK 
+Apoptosis-?-DDD NOTCH-?-Apoptosis NOTCH-?-DDD PI3K-?-MAPK NOTCH->-PI3K NOTCH->-MAPK RASamp->-PI3K RASamp->-MAPK Apoptosis->-PI3K DDD->-PI3K Apoptosis->-MAPK DDD->-MAPK RASamp-?-Apoptosis RASamp-?-DDD NOTCH-?-RASamp 
+WNTamp-?-NOTCHamp PI3Kamp-?-WNTamp PI3Kamp-?-NOTCHamp Apoptosis-?-DDD PI3Kamp-?-Apoptosis PI3Kamp-?-DDD WNTamp-?-Apoptosis NOTCHamp-?-Apoptosis WNTamp-?-DDD NOTCHamp-?-DDD 
+PI3K->-CM WNTamp-?-NOTCHamp PI3K-?-WNTamp PI3K-?-NOTCHamp PI3K->-TR WNTamp->-Apoptosisamp NOTCHamp->-Apoptosisamp WNTamp->-TR NOTCHamp->-TR TR-/-Apoptosisamp PI3K->-Apoptosisamp WNTamp-?-DDD NOTCHamp-?-DDD DDD->-CM DDD->-TR CM-/-Apoptosisamp PI3K-?-DDD DDD->-Apoptosisamp CM->-TR WNTamp->-CM NOTCHamp->-CM 
+Apoptosis-?-DDD NOTCH-?-Apoptosis NOTCH-?-DDD PI3Kamp-?-RASamp PI3Kamp-?-Apoptosis RASamp-?-Apoptosis PI3Kamp-?-DDD RASamp-?-DDD NOTCH-?-STATamp NOTCH-?-PI3Kamp NOTCH-?-RASamp STATamp-?-PI3Kamp STATamp-?-RASamp STATamp-?-Apoptosis STATamp-?-DDD 
+PI3Kamp-?-MAPKamp PI3Kamp->-Apoptosisamp MAPKamp->-Apoptosisamp NOTCH->-Apoptosisamp WNTamp->-Apoptosisamp WNTamp->-RAS NOTCH-?-WNTamp PI3Kamp-?-DDD MAPKamp-?-DDD NOTCH-?-DDD PI3Kamp-?-WNTamp MAPKamp-?-WNTamp PI3Kamp-?-NOTCH MAPKamp-?-NOTCH DDD->-RAS DDD->-Apoptosisamp PI3Kamp->-RAS MAPKamp->-RAS WNTamp-?-DDD NOTCH->-RAS RAS-/-Apoptosisamp 
+WNTamp-?-NOTCHamp PI3Kamp-?-WNTamp PI3Kamp-?-NOTCHamp WNTamp->-MAPK NOTCHamp->-MAPK PI3Kamp->-MAPK TR-?-WNTamp TR-?-NOTCHamp TR->-MAPK TR-?-PI3Kamp 
+WNTamp-?-NOTCHamp PI3Kamp-?-WNTamp PI3Kamp-?-NOTCHamp MAPKamp-?-PI3Kamp Apoptosis-?-DDD MAPKamp-?-Apoptosis MAPKamp-?-DDD PI3Kamp-?-Apoptosis PI3Kamp-?-DDD RASamp-?-PI3Kamp MAPKamp-?-WNTamp MAPKamp-?-NOTCHamp RASamp-?-WNTamp RASamp-?-NOTCHamp RASamp-?-MAPKamp WNTamp-?-Apoptosis NOTCHamp-?-Apoptosis WNTamp-?-DDD NOTCHamp-?-DDD RASamp-?-Apoptosis RASamp-?-DDD 
+CM-?-NOTCH Apoptosis->-TR CM-?-MAPKamp PI3Kamp-?-RASamp PI3Kamp-?-STATamp RASamp-?-STATamp PI3Kamp->-TR RASamp->-TR STATamp->-TR NOTCH->-TR MAPKamp->-TR CM->-TR PI3Kamp-?-CM RASamp-?-CM STATamp-?-CM MAPKamp-?-NOTCH Apoptosis-?-NOTCH PI3Kamp-?-NOTCH RASamp-?-NOTCH STATamp-?-NOTCH Apoptosis-?-MAPKamp Apoptosis-?-PI3Kamp Apoptosis-?-RASamp Apoptosis-?-STATamp PI3Kamp-?-MAPKamp RASamp-?-MAPKamp STATamp-?-MAPKamp Apoptosis-?-CM 
+WNTamp-?-NOTCHamp PI3Kamp-?-WNTamp PI3Kamp-?-NOTCHamp Apoptosisamp-?-WNTamp Apoptosisamp-?-NOTCHamp DDD->-MAPK PI3Kamp-?-DDD Apoptosisamp-?-DDD WNTamp->-MAPK NOTCHamp->-MAPK PI3Kamp->-MAPK Apoptosisamp-?-PI3Kamp Apoptosisamp->-MAPK WNTamp-?-DDD NOTCHamp-?-DDD 
+Apoptosis-?-DDD NOTCH-?-Apoptosis NOTCH-?-DDD PI3Kamp-?-RASamp PI3Kamp-?-STATamp RASamp-?-STATamp TR-?-NOTCH TR-?-Apoptosis TR-?-DDD PI3Kamp-?-TR RASamp-?-TR STATamp-?-TR PI3Kamp-?-Apoptosis RASamp-?-Apoptosis STATamp-?-Apoptosis PI3Kamp-?-DDD RASamp-?-DDD STATamp-?-DDD PI3Kamp-?-NOTCH RASamp-?-NOTCH STATamp-?-NOTCH 
+WNTamp-?-NOTCHamp WNTamp->-CM NOTCHamp->-CM Apoptosis-?-DDD RASamp-?-STATamp RASamp->-CM STATamp->-CM TR->-CM PI3K-?-MAPK WNTamp->-PI3K NOTCHamp->-PI3K WNTamp->-MAPK NOTCHamp->-MAPK Apoptosis->-PI3K DDD->-PI3K Apoptosis->-MAPK DDD->-MAPK WNTamp-?-Apoptosis NOTCHamp-?-Apoptosis WNTamp-?-DDD NOTCHamp-?-DDD Apoptosis->-CM DDD->-CM RASamp-?-WNTamp STATamp-?-WNTamp RASamp-?-NOTCHamp STATamp-?-NOTCHamp RASamp-?-TR STATamp-?-TR TR->-PI3K TR->-MAPK RASamp-?-Apoptosis STATamp-?-Apoptosis RASamp-?-DDD STATamp-?-DDD TR-?-WNTamp TR-?-NOTCHamp RASamp->-PI3K STATamp->-PI3K RASamp->-MAPK STATamp->-MAPK TR-?-Apoptosis TR-?-DDD PI3K->-CM MAPK->-CM 
+Apoptosis-?-DDD 
+WNTamp-?-NOTCHamp TR-?-WNTamp TR-?-NOTCHamp PI3Kamp-?-WNTamp PI3Kamp-?-NOTCHamp RASamp-?-STATamp RASamp-?-TR STATamp-?-TR PI3Kamp-?-TR RASamp-?-WNTamp STATamp-?-WNTamp RASamp-?-NOTCHamp STATamp-?-NOTCHamp RASamp-?-PI3Kamp STATamp-?-PI3Kamp 
+WNTamp-?-NOTCHamp PI3Kamp-?-WNTamp PI3Kamp-?-NOTCHamp DDD-?-WNTamp DDD-?-NOTCHamp PI3Kamp-?-Apoptosis PI3Kamp-?-DDD DDD-?-Apoptosis RASamp-?-STATamp RASamp-?-DDD STATamp-?-DDD RASamp-?-WNTamp STATamp-?-WNTamp RASamp-?-NOTCHamp STATamp-?-NOTCHamp RASamp-?-PI3Kamp STATamp-?-PI3Kamp WNTamp-?-Apoptosis NOTCHamp-?-Apoptosis RASamp-?-Apoptosis STATamp-?-Apoptosis 
+Apoptosisamp-?-DDD Apoptosisamp-?-CM PI3Kamp-?-RASamp PI3Kamp-?-CM RASamp-?-CM Apoptosisamp-?-PI3Kamp Apoptosisamp-?-RASamp DDD-?-CM PI3Kamp-?-DDD RASamp-?-DDD 
+Apoptosis-?-DDD NOTCH-?-Apoptosis NOTCH-?-DDD 
+CM-?-PI3K MAPK-?-PI3K Apoptosis-?-DDD MAPK-?-CM WNTamp-?-NOTCHamp PI3K-?-WNTamp PI3K-?-NOTCHamp RASamp-?-STATamp WNTamp-?-Apoptosis NOTCHamp-?-Apoptosis WNTamp-?-DDD NOTCHamp-?-DDD MAPK-?-Apoptosis MAPK-?-DDD RASamp-?-CM STATamp-?-CM RASamp-?-WNTamp STATamp-?-WNTamp RASamp-?-NOTCHamp STATamp-?-NOTCHamp MAPK-?-WNTamp MAPK-?-NOTCHamp MAPK-?-RASamp MAPK-?-STATamp RASamp-?-Apoptosis STATamp-?-Apoptosis RASamp-?-DDD STATamp-?-DDD PI3K-?-Apoptosis PI3K-?-DDD CM-?-Apoptosis CM-?-DDD RASamp-?-PI3K STATamp-?-PI3K CM-?-WNTamp CM-?-NOTCHamp 
+NOTCH-?-WNTamp MAPKamp-?-WNTamp Apoptosis-?-DDD NOTCH-?-Apoptosis NOTCH-?-DDD MAPKamp-?-PI3Kamp NOTCH-?-MAPKamp RASamp-?-STATamp RASamp-?-PI3Kamp STATamp-?-PI3Kamp WNTamp-?-Apoptosis WNTamp-?-DDD PI3Kamp-?-WNTamp NOTCH-?-PI3Kamp NOTCH-?-RASamp NOTCH-?-STATamp RASamp-?-WNTamp STATamp-?-WNTamp RASamp-?-Apoptosis STATamp-?-Apoptosis RASamp-?-DDD STATamp-?-DDD MAPKamp-?-Apoptosis MAPKamp-?-DDD PI3Kamp-?-Apoptosis PI3Kamp-?-DDD RASamp-?-MAPKamp STATamp-?-MAPKamp 
+CM-?-TR DDD-?-CM DDD-?-TR 
+CM-?-NOTCH Apoptosis-?-DDD NOTCH-?-Apoptosis NOTCH-?-DDD CM-?-Apoptosis CM-?-DDD 
+Apoptosis-?-PI3K CM-?-DDD CM-?-PI3K PI3K-?-DDD Apoptosis-?-DDD CM-?-Apoptosis 
+WNT-?-NOTCH Apoptosis-?-DDD WNT-?-Apoptosis NOTCH-?-Apoptosis WNT-?-DDD NOTCH-?-DDD 
+WNT-?-NOTCH WNT-?-Apoptosis NOTCH-?-Apoptosis WNT-?-RAS NOTCH-?-RAS PI3K-?-MAPK PI3K-?-RAS MAPK-?-RAS PI3K-?-Apoptosis MAPK-?-Apoptosis Apoptosis-?-RAS PI3K-?-WNT MAPK-?-WNT PI3K-?-NOTCH MAPK-?-NOTCH 
+CM-?-Apoptosisamp 
+Apoptosis-?-DDD RAS-?-Apoptosis RAS-?-DDD 
+RAS-?-MAPK RAS-?-Apoptosis MAPK-?-Apoptosis 
+Apoptosis-?-DDD PI3K-?-Apoptosis PI3K-?-DDD 
+Apoptosis-?-DDD PI3K-?-MAPK Apoptosis->-PI3K DDD->-PI3K Apoptosis->-MAPK DDD->-MAPK 
+Apoptosis-?-DDD mTOR-?-Apoptosis mTOR-?-DDD 
+Apoptosis-?-NOTCH PI3K-?-MAPK Apoptosis-?-PI3K Apoptosis-?-MAPK Apoptosis-?-mTOR mTOR-?-DDD NOTCH-?-DDD Apoptosis-?-DDD PI3K-?-mTOR MAPK-?-mTOR PI3K-?-NOTCH MAPK-?-NOTCH PI3K-?-DDD MAPK-?-DDD NOTCH-?-mTOR 
+CM-?-TR PI3K-?-MAPK CM-?-PI3K CM-?-MAPK CM-?-DDD CM-?-NOTCH CM-?-RAS CM-?-Apoptosis PI3K-?-TR MAPK-?-TR PI3K-?-DDD MAPK-?-DDD PI3K-?-NOTCH MAPK-?-NOTCH PI3K-?-RAS MAPK-?-RAS PI3K-?-Apoptosis MAPK-?-Apoptosis DDD-?-TR DDD-?-NOTCH DDD-?-RAS DDD-?-Apoptosis NOTCH-?-TR NOTCH-?-RAS RAS-?-TR Apoptosis-?-TR Apoptosis-?-NOTCH Apoptosis-?-RAS 
+Apoptosis-?-DDD TR-?-Apoptosis TR-?-DDD PI3K-?-MAPK PI3K-?-TR MAPK-?-TR PI3K-?-Apoptosis MAPK-?-Apoptosis PI3K-?-DDD MAPK-?-DDD RAS-?-TR RAS-?-PI3K RAS-?-MAPK RAS-?-Apoptosis RAS-?-DDD 
+Apoptosis-?-DDD TGF-b-?-Apoptosis TGF-b-?-DDD RAS-?-Apoptosis RAS-?-DDD RAS-?-TGF-b PI3K-?-Apoptosis PI3K-?-DDD PI3K-?-TGF-b PI3K-?-RAS 
+PI3K-?-TGF-b Apoptosis-?-PI3K Apoptosis-?-TGF-b 
+Apoptosis-?-DDD CM-?-Apoptosis CM-?-DDD 
+PI3K-?-RAS Apoptosis-?-DDD PI3K-?-Apoptosis RAS-?-Apoptosis PI3K-?-DDD RAS-?-DDD 
